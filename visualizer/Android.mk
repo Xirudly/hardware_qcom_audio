@@ -22,9 +22,7 @@ LOCAL_SRC_FILES:= \
 LOCAL_CFLAGS+= -O2 -fvisibility=hidden
 LOCAL_CFLAGS+= -Wno-error
 
-LOCAL_HEADER_LIBRARIES := \
-	libsystem_headers
-
+LOCAL_HEADER_LIBRARIES := libsystem_headers libhardware_headers
 LOCAL_SHARED_LIBRARIES := \
 	libcutils \
 	liblog \
